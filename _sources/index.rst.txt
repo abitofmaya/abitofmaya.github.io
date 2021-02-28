@@ -1,0 +1,117 @@
+.. New project documentation master file, created by
+   sphinx-quickstart on Sat Feb 27 14:04:16 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to New project's documentation!
+=======================================
+
+.. figure::  images/time.png
+   :align:   center
+
+   This is current time.
+
+.. image:: images/sphinx.png
+    :scale: 100
+    :alt: alternate text
+    :align: center
+    :target: URI or reference name
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   getting_started.rst
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
+New section
+===========
+This is a paragraph.
+    paragraph
+
+
+.. note:: This is a note.
+
+.. warning:: This is a warning.
+
+.. seealso:: See these notes.
+
+.. versionadded:: 0.0.2
+
+.. versionchanged:: 0.0.6
+
+subsection
+----------
+
+subsection 3
+::::::::::::
+
+.. sectnum::
+
+
+Table
+=====
+
+.. table:: Title of the table
+    :widths: auto
+    :align: left
+
+    ======== ========
+          A      not A   
+    ======== ========
+    false    True
+    true     false
+    ======== ========
+
+CSV table
+---------
+.. csv-table:: Title of the csv
+    :align: left
+    :file: _list.csv
+    :header-rows: 1
+    :stub-columns: 1
+
+list table
+==========
+.. list-table:: Frozen Delights!
+   :widths: 15 10 30
+   :header-rows: 1
+
+   * - Treat
+     - Quantity
+     - Description
+   * - Albatross
+     - 2.99
+     - On a stick!
+   * - Crunchy Frog
+     - 1.49
+     - If we took the bones out, it wouldn't be
+       crunchy, now would it?
+   * - Gannet Ripple
+     - 1.99
+     - On a stick!
+
+
+section
+=======
+* a bullet point using "*"
+
+  - a sub-list using "-"
+
+    + yet another sub-list
+
+  - another item
+
+
+.. contents:: Table of contents
+    spanning header
+    :depth: 2
